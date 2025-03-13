@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peddy Web</title>
+
+    <!-- Google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- DaisyUi and Tailwind Css CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1d5b89be9d.js" crossorigin="anonymous"></script>
+
+    <!-- Custom Css for Font -->
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .latoFont {
+                font-family: "Lato", serif;
+            }
+        }
+    </style>
+</head>
+
+<body class="latoFont">
+    <!--? Header section -->
+    <header>
+        <nav class="w-10/12 mx-auto flex justify-between items-center py-5">
+
+            <div class="flex items-center gap-5">
+                <img src="images/logo.webp" alt="">
+                <h1 class="text-[#131313] text-4xl font-extrabold">Peddy</h1>
+            </div>
+
+            <div class="space-x-5 text-lg text-[#13131380]">
+                <button>Home</button>
+                <button>Shop</button>
+                <button>Contact</button>
+            </div>
+
+            <div class="account">
+                <div class="text-2xl border rounded-full w-12 h-12 flex items-center justify-center">
+                    <i class="fa-regular fa-circle-user"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main section -->
+    <main>
+        <!--! Bringing Families Together -->
+        <section class="w-10/12 mx-auto mt-16">
+            <div class="w-3/5 mx-auto flex flex-col justify-center items-center text-center gap-8">
+
+                <p class="text-[rgba(19,19,19,0.6)] font-bold text-2xl">Bringing Families Together ❤️‍🔥</p>
+
+                <h1 class="text-[#131313] font-extrabold text-7xl">Your Path to Adoption Starts Here</h1>
+
+                <p class="text-xl">It is a long established fact that a reader will be distracted by the readable
+                    content of a page when
+                    looking at its
+                    layout. The point of using Lorem Ipsum is that it has a.</p>
+
+                <button class="btn bg-[#0E7A81] text-white px-8 font-semibold text-xl">View more</button>
+            </div>
+            <div class="w-4/6 mx-auto">
+                <img class="w-full" src="images/pet.webp" alt="">
+            </div>
+        </section>
+
+        <!--! Adopt Your Best Friend -->
+        <section class="w-10/12 mx-auto mt-16">
+
+            <!--? Title -->
+            <div class="text-center space-y-5">
+                <h1 class="text-4xl font-extrabold text-[#131313]">Adopt Your Best Friend</h1>
+                <p class="w-3/6 mx-auto text-[#13131390]">It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at its layout. The point of using Lorem
+                    Ipsum is that it has a.</p>
+            </div>
+
+            <!--? 4 btn -->
+            <div id="category-container" class="grid grid-cols-4 gap-5 my-10">
+            </div>
+
+            <!--? Grid Card -->
+            <div>
+
+                <!--? Title -->
+                <div class="flex justify-between items-center mb-10">
+                    <h1 class="text-2xl text-[#131313] font-extrabold">Best Deal For you</h1>
+                    <button class="btn bg-[#0E7A81] text-white px-8 font-semibold text-xl">View more</button>
+                </div>
+
+                <!--? Dynamic Cars -->
+                <div class="flex justify-between items-center gap-5  mb-10">
+
+                    <!--? pets Big 3 Card -->
+                    <div class="w-3/4 grid grid-cols-3 gap-5">
+
+                        <!--? card1 -->
+                        <div class="p-5 border rounded-lg space-y-5">
+
+                            <div class="max-w-[272px] h-[160px] rounded-lg border">
+                                <img class="w-full" src="images/pet.webp" alt="">
+                            </div>
+
+                            <div class="text-[rgba(19,19,19,0.7)] text-base">
+                                <h1 class="text-xl font-bold text-[#131313]">Mister Tartosh</h1>
+                                <p><i class="fa-solid fa-shapes"></i> Breed: Golder retriever</p>
+                                <p><i class="fa-regular fa-calendar"></i> Birth: 2024</p>
+                                <p><i class="fa-solid fa-venus-mars"></i> Gender: Female</p>
+                                <p><i class="fa-solid fa-dollar-sign"></i> Price : 199$</p>
+                            </div>
+
+                            <div class="border-t border-black flex justify-between items-center gap-4 pt-5">
+                                <div class="btn border text-[#0E7A81]"><i class="fa-regular fa-thumbs-up"></i></div>
+                                <div class="btn border text-[#0E7A81] px-8">Adopt</div>
+                                <div class="btn border text-[#0E7A81] px-8">Details</div>
+                            </div>
+
+                        </div>
+
+                        <!--? card2 -->
+                        <div class="p-5 border rounded-lg space-y-5">
+
+                            <div class="max-w-[272px] h-[160px] rounded-lg border">
+                                <img class="w-full" src="images/pet.webp" alt="">
+                            </div>
+
+                            <div class="text-[rgba(19,19,19,0.7)] text-base">
+                                <h1 class="text-xl font-bold text-[#131313]">Mister Tartosh</h1>
+                                <p><i class="fa-solid fa-shapes"></i> Breed: Golder retriever</p>
+                                <p><i class="fa-regular fa-calendar"></i> Birth: 2024</p>
+                                <p><i class="fa-solid fa-venus-mars"></i> Gender: Female</p>
+                                <p><i class="fa-solid fa-dollar-sign"></i> Price : 199$</p>
+                            </div>
+
+                            <div class="border-t border-black flex justify-between items-center gap-4 pt-5">
+                                <div class="btn border text-[#0E7A81]"><i class="fa-regular fa-thumbs-up"></i></div>
+                                <div class="btn border text-[#0E7A81] px-8">Adopt</div>
+                                <div class="btn border text-[#0E7A81] px-8">Details</div>
+                            </div>
+
+                        </div>
+
+                        <!--? card3 -->
+                        <div class="p-5 border rounded-lg space-y-5">
+
+                            <div class="max-w-[272px] h-[160px] rounded-lg border">
+                                <img class="w-full" src="images/pet.webp" alt="">
+                            </div>
+
+                            <div class="text-[rgba(19,19,19,0.7)] text-base">
+                                <h1 class="text-xl font-bold text-[#131313]">Mister Tartosh</h1>
+                                <p><i class="fa-solid fa-shapes"></i> Breed: Golder retriever</p>
+                                <p><i class="fa-regular fa-calendar"></i> Birth: 2024</p>
+                                <p><i class="fa-solid fa-venus-mars"></i> Gender: Female</p>
+                                <p><i class="fa-solid fa-dollar-sign"></i> Price : 199$</p>
+                            </div>
+
+                            <div class="border-t border-black flex justify-between items-center gap-4 pt-5">
+                                <div class="btn border text-[#0E7A81]"><i class="fa-regular fa-thumbs-up"></i></div>
+                                <div class="btn border text-[#0E7A81] px-8">Adopt</div>
+                                <div class="btn border text-[#0E7A81] px-8">Details</div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!--? pets Big 1 Card -->
+                    <div class="flex-1 grid grid-cols-2 p-5 border rounded-lg gap-5">
+                        <div class="rounded-lg border ">
+                            <img class="w-full h-[100px]" src="images/pet.webp" alt="">
+                        </div>
+
+                        <div class="rounded-lg border ">
+                            <img class="w-full h-[100px]" src="images/pet.webp" alt="">
+                        </div>
+
+                        <div class="rounded-lg border ">
+                            <img class="w-full h-[100px]" src="images/pet.webp" alt="">
+                        </div>
+
+                        <div class="rounded-lg border ">
+                            <img class="w-full h-[100px]" src="images/pet.webp" alt="">
+                        </div>
+
+                        <div class="rounded-lg border ">
+                            <img class="w-full h-[100px]" src="images/pet.webp" alt="">
+                        </div>
+
+                        <div class="rounded-lg border ">
+                            <img class="w-full h-[100px]" src="images/pet.webp" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer section -->
+    <footer></footer>
+
+
+    <!-- Custom Js -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
