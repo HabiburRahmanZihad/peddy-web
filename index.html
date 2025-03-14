@@ -40,13 +40,13 @@
                 <h1 class="text-[#131313] text-4xl font-extrabold">Peddy</h1>
             </div>
 
-            <div class="space-x-5 text-lg text-[#13131380]">
+            <div onclick="workInProgress()" class="space-x-5 text-lg text-[#13131380]">
                 <button>Home</button>
                 <button>Shop</button>
                 <button>Contact</button>
             </div>
 
-            <div class="account">
+            <div onclick="workInProgress()" class="account">
                 <div class="text-2xl border rounded-full w-12 h-12 flex items-center justify-center">
                     <i class="fa-regular fa-circle-user"></i>
                 </div>
@@ -69,7 +69,8 @@
                     looking at its
                     layout. The point of using Lorem Ipsum is that it has a.</p>
 
-                <button class="btn bg-[#0E7A81] text-white px-8 font-semibold text-xl">View more</button>
+                <button onclick="workInProgress()" class="btn bg-[#0E7A81] text-white px-8 font-semibold text-xl">View
+                    more</button>
             </div>
             <div class="w-4/6 mx-auto">
                 <img class="w-full" src="images/pet.webp" alt="">
@@ -97,7 +98,9 @@
                 <!--? Title -->
                 <div class="flex justify-between items-center mb-10">
                     <h1 class="text-2xl text-[#131313] font-extrabold">Best Deal For you</h1>
-                    <button class="btn bg-[#0E7A81] text-white px-8 font-semibold text-xl">View more</button>
+                    <button onclick="workInProgress()"
+                        class="btn bg-[#0E7A81] text-white px-8 font-semibold text-xl">View
+                        more</button>
                 </div>
 
                 <!--? Dynamic Cars -->
@@ -158,7 +161,57 @@
     </main>
 
     <!-- Footer section -->
-    <footer></footer>
+    <footer>
+        <section class="bg-[#131313] text-white py-[100px]">
+            <div class="w-10/12 mx-auto flex justify-between items-center py-5">
+                <!--* Footer 1 -->
+                <div class="space-y-5">
+
+                    <div class="flex items-center gap-5">
+                        <img src="images/logo.webp" alt="">
+                        <h1 class="text-4xl font-extrabold">Peddy</h1>
+                    </div>
+
+                    <div class="text-lg">
+                        <p>Location: av. Washington 165, NY CA 54003 <br>
+                            Phone: +31 85 964 47 25 <br>
+                            Email: info@yourdomain.com <br>
+                            Openings hours: 9.00 AM - 5.00 PM</p>
+                    </div>
+
+                    <div class="flex items-center gap-5">
+                        <img class="w-10" src="icons/Facebook.png" alt="">
+                        <img class="w-10" src="icons/Instagram.png" alt="">
+                        <img class="w-10" src="icons/Linkedin.png" alt="">
+                        <img class="w-10" src="icons/Twitter.png" alt="">
+                    </div>
+                </div>
+
+                <!--* Footer 2 -->
+                <div class="space-y-5 text-base">
+                    <p class="text-lg font-bold">Useful Links</p>
+                    <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Animals</li>
+                        <li>Foundation</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+
+                <!--* Footer 3 -->
+                <div class="space-y-5 flex flex-col justify-center">
+                    <p class="text-lg font-bold">Drop a Message</p>
+
+                    <div class="flex flex-col justify-center gap-5">
+                        <input type="text" placeholder="Enter your email"
+                            class="w-60 p-2 rounded-xl bg-gray-700 text-white">
+                        <button
+                            class="btn bg-[#0E7A81] text-white px-8 font-semibold text-xl border border-none rounded-xl">Subscribe</button>
+                    </div>
+                </div>
+        </section>
+    </footer>
 
 
     <!-- Custom Js -->

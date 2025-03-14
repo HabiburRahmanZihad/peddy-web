@@ -167,6 +167,8 @@ const displayPets = (pets) => {
 }
 
 
-
+function workInProgress() {
+    alert('Click on Pet Image to see details');
+}
 
 loadCategories();
